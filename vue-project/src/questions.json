@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "question": "1. What is Chris's favorite shadow puppet?",
+        "choices": [
+            "Dog",
+            "Rabbit",
+            "Bird"
+        ],
+        "correctAnswer": "Bird"
+    },
+    {
+        "id": 2,
+        "question": "2. What is Chris's favorite pokemon?",
+        "choices": [
+            "Poliwhirl",
+            "Pikachu",
+            "Suicune",
+            "Buzz Lightyear"
+        ],
+        "correctAnswer": "Poliwhirl"
+    },
+    {
+        "id": 3,
+        "question": "3. What is Chris's least favorite dance?",
+        "choices": [
+            "Chicken Dance",
+            "All"
+        ],
+        "correctAnswer": "All"
+    },
+    {
+        "id": 3,
+        "question": "4. What is Chris's favorite color?",
+        "choices": [
+            "Rainbow",
+            "Black",
+            "Rock",
+            "MegaMan",
+            "Sprite"
+        ],
+        "correctAnswer": "Black"
+    }
+]
