@@ -1,13 +1,20 @@
 <template>
 <div class = "Footer">
-    <button class = "Button">Submit</button>
+    <button @click="onClick" class = "Button">Submit</button>
     <p></p>
 </div>
 </template>
 
 <script>
 export default{
-    name: 'Footer'
+    name: 'Footer',
+    methods: {
+        onClick(e){
+            e.preventDefault();
+
+            console.log("CLICKED");
+        }
+    }
 }
 </script>
 
