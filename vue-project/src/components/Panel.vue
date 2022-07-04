@@ -2,17 +2,7 @@
 <div class = "Panel">
     <div class = "panelContent">
         <p>{{question.question}}</p>
-        <!--<input type="radio" :name = "question.choices">
-        <label >{{question.choices[0]}}</label><br>
-        <input type="radio" :name = "question.choices">
-        <label >{{question.choices[1]}}</label><br>
-        <input type="radio"  :name = "question.choices">
-        <label >{{question.choices[2]}}</label><br>
-        <input type="radio"  :name = "question.choices">
-        <label >{{question.choices[3]}}</label><br>
-        <input type="radio"  :name = "question.choices">
-        <label >{{question.choices[4]}}</label><br>-->
-        <Question :choices = "question.choices"/>
+        <Question :choices = "question.choices" :questionsArray = "questionsArray"/>
     </div>
 </div>
 </template>
@@ -21,9 +11,11 @@
 import Question from './Question.vue';
 
 export default{
+    
     name: 'Panel',
     props: {
-        question: Object
+        question: Object,
+        questionsArray: Array
     },
     components: {
         Question

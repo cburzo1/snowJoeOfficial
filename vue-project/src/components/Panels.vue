@@ -1,6 +1,6 @@
 <template>
 <div v-for="question in questions">
-    <Panel :question="question"/>
+    <Panel :question="question" :questionsArray="questions"/>
 </div>
 </template>
 
